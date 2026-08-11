@@ -1,21 +1,24 @@
-/*
-  PANEL SIMPLE DE EDICIÓN
-  Cambia aquí la información habitual de la web.
-*/
+/* PANEL DE EDICIÓN — información principal del sitio */
 const SITE = {
   brand: "Buen Vivir TEC",
   tagline: "Tecnología · Territorio · Sostenibilidad",
-  intro: "Resolvemos trámites, gestionamos proyectos y proponemos soluciones para personas, empresas, comunidades y organizaciones.",
-  whatsapp: "569XXXXXXXX", // Reemplaza por tu número, por ejemplo 56912345678
+  intro: "Estudiamos, analizamos y gestionamos información para ayudar a personas, empresas, comunidades y organizaciones a manejar la incertidumbre y el riesgo, tomar decisiones complejas y convertir necesidades en proyectos y soluciones concretas.",
+  whatsapp: "569XXXXXXXX",
   email: "contacto@buenvivirtec.com",
-  location: "Chile",
+  location: "Chile · Atención presencial y remota",
 
   services: [
-    {title:"Gestión de proyectos", text:"Convertimos una idea o necesidad en un plan de trabajo concreto.", items:["Formulación y planificación","Presupuestos y cronogramas","Coordinación y seguimiento"]},
-    {title:"Fondos concursables", text:"Apoyo para preparar postulaciones y ordenar proyectos financiables.", items:["Formulación de proyectos","Revisión de requisitos","Apoyo en seguimiento y rendición"]},
-    {title:"Oficina técnica", text:"Acompañamiento profesional para empresas, comunidades y organizaciones.", items:["Gestión documental","Coordinación técnica","Apoyo a la toma de decisiones"]},
-    {title:"Ingeniería y soluciones técnicas", text:"Apoyo en el diseño, evaluación y desarrollo de soluciones.", items:["Anteproyectos","Especificaciones técnicas","Presupuestos y cubicaciones"]},
-    {title:"Sostenibilidad y HSEC", text:"Herramientas para integrar seguridad, ambiente y calidad en la gestión.", items:["Seguridad y salud ocupacional","Medio ambiente","Calidad y mejora continua"]},
-    {title:"Trámites y transformación digital", text:"Facilitamos procesos administrativos y acercamos herramientas digitales.", items:["Trámites online","Gestión documental","Digitalización y automatización"]}
+    {title:"Oficina técnica y gestión de proyectos", text:"Acompañamiento técnico y de gestión para transformar necesidades, ideas y problemas en planes de acción.", items:["Diagnóstico y planificación","Formulación, presupuestos y cronogramas","Coordinación, seguimiento y cierre"]},
+    {title:"Gestión de riesgos e incertidumbre", text:"Metodologías para identificar, analizar, priorizar y gestionar riesgos que afectan decisiones y resultados.", items:["Identificación y análisis de riesgos","Matrices y planes de tratamiento","Apoyo a decisiones complejas"]},
+    {title:"Sistemas integrados de gestión", text:"Apoyo para ordenar e integrar requisitos de seguridad y salud en el trabajo, calidad y gestión ambiental.", items:["Levantamiento de brechas","Documentación y procedimientos","Implementación y mejora continua"]},
+    {title:"Sustentabilidad, energía y ambiente", text:"Herramientas para mejorar el desempeño ambiental y energético de organizaciones y proyectos.", items:["ISO 50001 y eficiencia energética","Huella hídrica y huella de carbono","Gestión ambiental y sostenibilidad"]},
+    {title:"Minería, contratistas y cumplimiento", text:"Acompañamiento para organizaciones que deben responder a requisitos normativos, contractuales y de gestión.", items:["SST, calidad y ambiente","Preparación para auditorías","Ordenamiento y seguimiento documental"]},
+    {title:"Agricultura, agua y energía", text:"Diseño y gestión de soluciones técnicas aplicadas al territorio y a sistemas productivos.", items:["Proyectos de bombeo solar","Gestión eficiente de agua y energía","Formulación y evaluación de proyectos"]},
+    {title:"Participación ciudadana y territorio", text:"Participación ciudadana informada, diálogo de saberes y herramientas para comprender procesos socioambientales.", items:["Diseño de procesos participativos","Información y acompañamiento técnico","Desarrollo territorial y comunitario"]},
+    {title:"Ingeniería cultural", text:"Integración de cultura, organización, territorio, tecnología y conocimiento para diseñar soluciones pertinentes.", items:["Análisis socioterritorial","Diseño de soluciones contextualizadas","Articulación de saberes"]},
+    {title:"Gestión cibernética y transformación digital", text:"Uso estratégico de información y herramientas digitales para mejorar coordinación, procesos y decisiones.", items:["Ordenamiento de información","Herramientas y procesos digitales","Automatización y mejora de gestión"]},
+    {title:"Certificaciones y preparación organizacional", text:"Acompañamiento para preparar sistemas y procesos frente a requisitos de certificación y auditoría.", items:["Diagnóstico de brechas","Implementación y documentación","Acompañamiento previo a certificación"]},
+    {title:"Capacitación y transferencia de conocimiento", text:"Capacitaciones diseñadas desde las necesidades concretas de cada organización, equipo o comunidad.", items:["Gestión de riesgos","Sostenibilidad y sistemas de gestión","Territorio, participación y proyectos"]},
+    {title:"Personas naturales y servicios profesionales", text:"Apoyo cercano para resolver necesidades administrativas, técnicas y de gestión de manera ordenada.", items:["Orientación y diagnóstico","Gestiones y documentación","Propuestas y cotizaciones"]}
   ]
 };
