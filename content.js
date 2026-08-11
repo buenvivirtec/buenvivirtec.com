@@ -1,7 +1,7 @@
 /* PANEL DE EDICIÓN — información principal del sitio */
 const SITE = {
   brand: "Buen Vivir TEC",
-  tagline: "Tecnología · Territorio · Sostenibilidad",
+  tagline: "Tecnología · Territorio · Sustentabilidad",
   intro: "Estudiamos, analizamos y gestionamos información para ayudar a personas, empresas, comunidades y organizaciones a manejar la incertidumbre y el riesgo, tomar decisiones complejas y convertir necesidades en proyectos y soluciones concretas.",
   whatsapp: "56992362592",
   email: "contacto@buenvivirtec.com",
