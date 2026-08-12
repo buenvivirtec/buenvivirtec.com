@@ -3,90 +3,96 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Buen Vivir TEC — Oficina Técnica para gestión de proyectos, riesgos, sustentabilidad, participación ciudadana, territorio, energía y soluciones para organizaciones, empresas, comunidades y personas.">
-<meta name="keywords" content="oficina técnica, gestión de proyectos, gestión de riesgos, sustentabilidad, minería, agricultura, energía, ISO 50001, participación ciudadana, desarrollo territorial, sistemas integrados de gestión">
-<title>Buen Vivir TEC | Oficina Técnica, Riesgo, Territorio y Sustentabilidad</title>
+<meta name="description" content="Buen Vivir TEC — Ingeniería Cultural, conocimiento, territorio, tecnología y gestión para abordar problemas complejos.">
+<meta name="keywords" content="Ingeniería Cultural, gestión de riesgos, participación ciudadana, territorio, sustentabilidad, agua, agricultura, energía solar, proyectos, investigación">
+<title>Buen Vivir TEC | Ingeniería Cultural</title>
 <link rel="icon" href="buen-vivir-symbol.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
-<style>.brand-symbol{width:50px;height:50px;object-fit:contain;border-radius:8px}.brand{gap:12px}@media(max-width:560px){.brand-symbol{width:44px;height:44px}}</style>
+<style>
+.brand-symbol{width:48px;height:48px;object-fit:contain;border-radius:8px;display:block;flex:0 0 48px}.brand{gap:11px}
+@media(max-width:560px){.brand-symbol{width:44px;height:44px;flex-basis:44px}}
+/* V4.0: símbolo geométrico como textura sutil de fondo */
+.hero{position:relative}.hero:before{content:"";position:absolute;width:430px;height:430px;right:-120px;top:-110px;opacity:.07;background:url('buen-vivir-symbol.svg') center/contain no-repeat;pointer-events:none}.hero-grid{position:relative;z-index:1}
+.experience-photo{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:18px;margin-top:18px;display:block}
+.quote{border-left:4px solid var(--gold);padding:8px 0 8px 24px;font-family:Manrope;font-size:20px;line-height:1.45;color:var(--ink)}
+.principle{background:var(--cream)}.principle .quote{max-width:900px}
+</style>
 </head>
 <body>
 <header class="header"><div class="container nav">
 <a class="brand" href="#inicio"><img class="brand-symbol" src="buen-vivir-symbol.svg" alt="Símbolo Buen Vivir"><span><b id="brand"></b><small id="tagline"></small></span></a>
 <button class="hamb" aria-label="Abrir menú">☰</button>
-<nav id="menu"><a href="#servicios">Servicios</a><a href="#capacidades">Capacidades</a><a href="#metodo">Método</a><a href="#experiencia">Experiencia</a><a href="#nosotros">Nosotros</a><a class="pill" id="topWA">Contactar</a></nav>
+<nav id="menu"><a href="#que-hacemos">Qué hacemos</a><a href="#ingenieria">Ingeniería Cultural</a><a href="#areas">Áreas</a><a href="#experiencia">Experiencia</a><a href="#investigacion">Investigación</a><a href="#nosotros">Nosotros</a><a class="pill" id="topWA">Contactar</a></nav>
 </div></header>
 
 <main id="inicio">
 <section class="hero"><div class="container hero-grid">
 <div>
-<p class="eyebrow">OFICINA TÉCNICA · CONSULTORÍA · GESTIÓN</p>
-<h1>Gobernar la incertidumbre.<br><span>Gestionar el riesgo.</span><br>Crear futuro.</h1>
+<p class="eyebrow">BUEN VIVIR TEC · INGENIERÍA CULTURAL</p>
+<h1>Comprender.<br><span>Gestionar.</span><br>Transformar.</h1>
 <p class="lead" id="intro"></p>
-<div class="buttons"><a class="btn primary" id="heroWA">Solicitar una consulta</a><a class="btn ghost" href="#servicios">Explorar servicios</a></div>
-<div class="checks"><span>✓ Diagnóstico y análisis</span><span>✓ Gestión y acompañamiento</span><span>✓ Soluciones con enfoque territorial</span></div>
+<div class="buttons"><a class="btn primary" id="heroWA">Conversemos</a><a class="btn ghost" href="#areas">Ver áreas de trabajo</a></div>
+<div class="checks"><span>✓ Información para decidir</span><span>✓ Gestión de riesgos</span><span>✓ Experiencia territorial</span></div>
 </div>
 <div class="hero-panel">
-<p class="eyebrow light">BUEN VIVIR TEC</p>
-<h2>Conocimiento, tecnología, territorio y sabiduría ancestral.</h2>
-<p>Integramos ciencia, gestión y experiencia territorial para apoyar decisiones complejas y transformar necesidades en acciones concretas.</p>
-<div class="tokapu-mark" aria-label="Elemento geométrico inspirado en una lógica modular de tokapus"><i></i><i></i><i></i><i></i></div>
-<div class="numbers"><div><b>01</b><span>Comprender</span></div><div><b>02</b><span>Planificar</span></div><div><b>03</b><span>Gestionar</span></div><div><b>04</b><span>Aprender</span></div></div>
+<p class="eyebrow light">UNA MIRADA PROPIA</p>
+<h2>Conocimiento, territorio, tecnología, gestión y cultura.</h2>
+<p>Integramos ciencias de punta, experiencia territorial y sabiduría indígena americana para abordar problemas complejos.</p>
+<div class="tokapu-mark" aria-label="Elemento geométrico de identidad visual"><i></i><i></i><i></i><i></i></div>
 </div>
 </div></section>
 
-<section id="servicios" class="section"><div class="container">
-<div class="heading"><p class="eyebrow">SERVICIOS</p><h2>Una oficina técnica para necesidades complejas</h2><p>Trabajamos con personas naturales y jurídicas, empresas, comunidades, organizaciones y emprendimientos. Si tu necesidad no aparece aquí, consúltanos.</p></div>
+<section id="que-hacemos" class="section"><div class="container">
+<div class="heading"><p class="eyebrow">QUÉ HACEMOS</p><h2>Estudiar para comprender. Gestionar para transformar.</h2></div>
+<div class="quote"><strong>Estudiar, analizar, gestionar y proporcionar información que permita a las organizaciones que asesora manejar la incertidumbre y el riesgo, mediante el uso de metodologías adecuadas.</strong><br><br><strong>Diagnosticar problemas organizacionales complejos.</strong><br><br><strong>Capacitaciones.</strong></div>
+<p class="heading-text" style="max-width:780px;color:var(--muted);font-size:17px;margin-top:28px">Contribuimos a transformar información, conocimiento y experiencia en decisiones y acciones concretas.</p>
+</div></section>
+
+<section id="ingenieria" class="section cream"><div class="container">
+<div class="heading"><p class="eyebrow">INGENIERÍA CULTURAL</p><h2>Una manera de abordar problemas complejos</h2><p>Ingeniería Cultural integra conocimiento, tecnología, territorio, cultura y experiencia para comprender y actuar sobre realidades complejas.</p></div>
+<div class="cap-grid">
+<article><span>01</span><h3>Conocimiento</h3><p>Ciencias de punta y sabiduría indígena americana.</p></article>
+<article><span>02</span><h3>Territorio</h3><p>Realidades sociales, culturales, ambientales y productivas.</p></article>
+<article><span>03</span><h3>Gestión</h3><p>Información y conocimiento orientados a decisiones y acciones.</p></article>
+<article><span>04</span><h3>Experiencia</h3><p>Aprendizaje construido desde la práctica, la investigación y la vivencia.</p></article>
+</div>
+</div></section>
+
+<section id="areas" class="section"><div class="container">
+<div class="heading"><p class="eyebrow">ÁREAS DE TRABAJO</p><h2>Capacidades que se aplican a necesidades reales</h2><p>Seis áreas reúnen nuestros servicios para que la oferta sea clara sin perder la amplitud de la experiencia profesional.</p></div>
 <div id="services" class="cards"></div>
 </div></section>
 
-<section id="capacidades" class="section cream"><div class="container">
-<div class="heading"><p class="eyebrow">CAPACIDADES</p><h2>Conectamos disciplinas para mirar el sistema completo</h2><p>La propuesta combina gestión profesional, herramientas técnicas, sustentabilidad, territorio y conocimiento para abordar problemas que no caben en una sola disciplina.</p></div>
-<div class="cap-grid">
-<article><span>01</span><h3>Gestión de riesgos</h3><p>Identificación, análisis, priorización y tratamiento de riesgos para apoyar decisiones bajo incertidumbre.</p></article>
-<article><span>02</span><h3>Sistemas integrados de gestión</h3><p>Apoyo en la integración de gestión de seguridad y salud en el trabajo, calidad y medio ambiente.</p></article>
-<article><span>03</span><h3>Sustentabilidad y energía</h3><p>Eficiencia energética, ISO 50001, huella de carbono, huella hídrica y gestión ambiental.</p></article>
-<article><span>04</span><h3>Territorio y comunidades</h3><p>Desarrollo territorial y comunitario, participación ciudadana informada y diálogo entre saberes.</p></article>
-<article><span>05</span><h3>Ingeniería cultural</h3><p>Diseño de soluciones que consideran cultura, organización, territorio, tecnología y formas locales de conocimiento.</p></article>
-<article><span>06</span><h3>Gestión cibernética</h3><p>Uso estratégico de información, herramientas digitales y gestión de datos para mejorar coordinación y toma de decisiones.</p></article>
-</div>
-</div></section>
-
-<section class="section"><div class="container">
-<div class="heading"><p class="eyebrow">ORGANIZACIONES Y EMPRESAS</p><h2>Preparación para operar con estándares de gestión</h2><p>Apoyamos especialmente a organizaciones que necesitan ordenar procesos, evidenciar cumplimiento y gestionar sus riesgos.</p></div>
-<div class="standards"><div><b>Seguridad y Salud en el Trabajo</b><span>SST</span></div><div><b>Gestión de Calidad</b><span>Calidad</span></div><div><b>Gestión Ambiental</b><span>Ambiente</span></div><div><b>Gestión Integrada</b><span>SST · Calidad · Ambiente</span></div><div><b>Certificaciones</b><span>Preparación y acompañamiento</span></div></div>
-<p class="note">Para empresas contratistas de minería y otros sectores, el servicio puede incluir levantamiento de brechas, ordenamiento documental, apoyo a la implementación, preparación para auditorías y seguimiento. La certificación formal corresponde al organismo certificador competente.</p>
-</div></section>
-
-<section id="metodo" class="section cream"><div class="container">
-<div class="heading"><p class="eyebrow">MÉTODO DE TRABAJO</p><h2>De la incertidumbre a una decisión gestionable</h2></div>
-<div class="steps"><article><b>01</b><h3>Escuchar y comprender</h3><p>Definimos la necesidad, el contexto, los actores, restricciones y resultado esperado.</p></article><article><b>02</b><h3>Diagnosticar</h3><p>Ordenamos información, identificamos problemas, riesgos, brechas y oportunidades.</p></article><article><b>03</b><h3>Diseñar y gestionar</h3><p>Construimos una propuesta con metodología, prioridades, responsables, recursos y plazos.</p></article><article><b>04</b><h3>Retroalimentar y mejorar</h3><p>Evaluamos resultados, aprendemos del proceso y ajustamos las decisiones cuando corresponde.</p></article></div>
-</div></section>
-
-<section id="experiencia" class="section"><div class="container">
-<div class="heading"><p class="eyebrow">EXPERIENCIA</p><h2>Experiencia aplicada en territorio</h2><p>Una trayectoria que conecta investigación, gestión ambiental, participación ciudadana, proyectos técnicos y desarrollo territorial.</p></div>
+<section id="experiencia" class="section cream"><div class="container">
+<div class="heading"><p class="eyebrow">EXPERIENCIA</p><h2>Conocimiento construido en territorio</h2><p>Nuestra trayectoria conecta proyectos, comunidades, educación, tecnología, investigación y gestión.</p></div>
 <div class="experience-grid">
-<article><span>01</span><h3>Participación ciudadana informada</h3><p>Experiencia de investigación aplicada en el Sistema de Evaluación Ambiental de Chile, articulando ciudadanía, información técnica, diálogo de saberes y acompañamiento profesional.</p></article>
-<article><span>02</span><h3>Agricultura, agua y energía</h3><p>Diseño y gestión de proyectos para el sector agrícola, incluyendo soluciones de bombeo solar y uso eficiente de recursos.</p></article>
-<article><span>03</span><h3>Gestión energética y ambiental</h3><p>Formación en sistemas de gestión de eficiencia energética ISO 50001, huella hídrica, huella de carbono y gestión ambiental.</p></article>
-<article><span>04</span><h3>Desarrollo territorial y comunitario</h3><p>Formación y experiencia para comprender organizaciones, comunidades y territorio desde una perspectiva sistémica.</p></article>
+<article><span>01</span><h3>Agua + Energía</h3><p>Soluciones de bombeo solar aplicadas a sistemas productivos y territorios rurales.</p><div class="experience-photo" style="background:linear-gradient(135deg,#dfe8df,#aebfaf);display:grid;place-items:center;color:var(--g);font-weight:800">PROYECTOS DE AGUA Y ENERGÍA</div></article>
+<article><span>02</span><h3>Territorio + Comunidades</h3><p>Trabajo con organizaciones, comunidades y actores territoriales.</p><div class="experience-photo" style="background:linear-gradient(135deg,#e8dfcf,#c6b18b);display:grid;place-items:center;color:var(--g);font-weight:800">TERRITORIO Y COMUNIDADES</div></article>
+<article><span>03</span><h3>Mokhsa Camaña</h3><p><strong>Escuela Libre · Tamarugal · 2018–2024.</strong> Experiencia de aprendizaje que articuló territorio, cultura, conocimiento, naturaleza y participación.</p><div class="experience-photo" style="background:linear-gradient(135deg,#e5eadf,#c9d4c4);display:grid;place-items:center;color:var(--g);font-weight:800">MOKHSA CAMAÑA · ESCUELA LIBRE</div></article>
+<article><span>04</span><h3>Proyectos + Gestión</h3><p>Diseño, formulación, ejecución y acompañamiento de iniciativas.</p><div class="experience-photo" style="background:linear-gradient(135deg,#e7e2d8,#c9c1ad);display:grid;place-items:center;color:var(--g);font-weight:800">PROYECTOS Y GESTIÓN</div></article>
 </div>
-<div class="future-gallery"><div><b>PROYECTOS</b><span>Espacio preparado para incorporar fotografías y casos de trabajo.</span></div><div><b>CASOS</b><span>Mostraremos posteriormente resultados, procesos y aprendizajes.</span></div><div><b>PORTAFOLIO</b><span>Una sección preparada para crecer hacia clientes nacionales e internacionales.</span></div></div>
 </div></section>
 
-<section class="section dark-section"><div class="container philosophy">
-<div><p class="eyebrow light">UNA MIRADA PROPIA</p><h2>Ciencia, tecnología y sabiduría de los pueblos ancestrales.</h2></div>
-<div><p>Buen Vivir TEC busca aplicar a la vida cotidiana herramientas de planificación, observación, organización y gestión inspiradas en conocimientos contemporáneos y en la sabiduría ancestral americana.</p><p>La referencia conceptual a <strong>Kamak</strong> se entiende como una inspiración para desarrollar herramientas prácticas de gestión de la incertidumbre y el riesgo; la obra y las decodificaciones originales pertenecen a sus respectivos autores.</p></div>
+<section id="investigacion" class="section"><div class="container">
+<div class="heading"><p class="eyebrow">INVESTIGACIÓN</p><h2>De la experiencia al conocimiento</h2><p>Investigamos problemas y experiencias que surgen del territorio, las organizaciones, las comunidades y los procesos de transformación.</p></div>
+<div class="standards"><div><b>Etnografía</b><span>Observación y comprensión de procesos.</span></div><div><b>Vivencia</b><span>Conocimiento construido desde la experiencia.</span></div><div><b>Investigación aplicada</b><span>Preguntas vinculadas a problemas reales.</span></div><div><b>Aprendizaje territorial</b><span>Experiencia, memoria y territorio.</span></div><div><b>Sistematización</b><span>Convertir experiencia en conocimiento.</span></div></div>
+<p class="quote" style="margin-top:30px">La experiencia también produce conocimiento.</p>
 </div></section>
 
-<section id="nosotros" class="section"><div class="container about">
-<div><p class="eyebrow">QUIÉNES SOMOS</p><h2>Una oficina técnica cercana, con vocación territorial y mirada internacional.</h2></div>
-<div><p>Buen Vivir TEC nace desde la experiencia en gestión y ordenamiento ambiental, proyectos, participación ciudadana, territorio y organizaciones.</p><p>Nuestro propósito es estudiar, analizar, gestionar y proporcionar información que permita manejar incertidumbre y riesgo; diagnosticar problemas organizacionales complejos; contribuir a decisiones difíciles; capacitar; y generar retroalimentación para mejorar los procesos.</p><p>Mantenemos una práctica de aprendizaje continuo, integrando el avance de las ciencias, la tecnología y la sabiduría ancestral de los pueblos de América.</p></div>
+<section id="nosotros" class="section dark-section"><div class="container philosophy">
+<div><p class="eyebrow light">NOSOTROS</p><h2>Buen Vivir TEC</h2><p>Oficina técnica y consultora que desarrolla Ingeniería Cultural para abordar problemas complejos integrando conocimiento, tecnología, gestión, territorio y experiencia.</p></div>
+<div><p><strong>Fundamento intelectual</strong></p><p>El concepto de Ingeniería Cultural se encuentra vinculado a la enseñanza y pensamiento de Hugo Romero Bedregal y a una trayectoria que comprende <strong>Movimientos Sociales y Planeamiento Andino · Planeamiento Andino · América Mágica · Kamak</strong>.</p><p><strong>TINKU · En busca de la Loma Santa</strong> forma parte de la continuidad de esta trayectoria intelectual.</p></div>
 </div></section>
 
-<section class="cta"><div class="container cta-box"><div><p class="eyebrow light">¿TIENES UNA NECESIDAD?</p><h2>Conversemos sobre el problema antes de buscar la solución.</h2><p>Cuéntanos qué necesitas resolver. Evaluaremos el alcance y, cuando corresponda, prepararemos una propuesta y cotización.</p></div><a class="btn white" id="ctaWA">Hablar por WhatsApp</a></div></section>
+<section class="section principle"><div class="container">
+<div class="heading"><p class="eyebrow">PRINCIPIO FUNDACIONAL</p><h2>Una definición que orienta nuestro trabajo</h2></div>
+<div class="quote">Estudiar, analizar, gestionar y proporcionar información que permita a las organizaciones que asesora manejar la incertidumbre y el riesgo.<br><br>Diagnosticar problemas organizacionales complejos.<br><br>Contribuir a la toma de decisiones mediante metodologías adecuadas.<br><br>Mantenernos constantemente actualizados respecto del avance de las ciencias de punta y de la sabiduría indígena americana.</div>
+<p style="margin-top:18px;font-weight:800;color:var(--g2)">Hugo Romero Bedregal</p>
+</div></section>
+
+<section class="cta"><div class="container cta-box"><div><p class="eyebrow light">¿TIENES UN PROBLEMA COMPLEJO?</p><h2>Conversemos.</h2><p>Cuéntanos qué necesitas comprender, diagnosticar, gestionar o transformar.</p></div><a class="btn white" id="ctaWA">Hablar por WhatsApp</a></div></section>
 </main>
 
-<footer><div class="container foot"><div><b id="footBrand"></b><p id="footTag"></p></div><div><p id="email"></p><p id="location"></p></div><div><p>© <span id="year"></span> Buen Vivir TEC</p><p>Gestión · Riesgo · Territorio · Sustentabilidad</p></div></div></footer>
+<footer><div class="container foot"><div><b id="footBrand"></b><p id="footTag"></p></div><div><p id="email"></p><p id="location"></p></div><div><p>© <span id="year"></span> Buen Vivir TEC</p><p>Ingeniería Cultural · Gestión · Territorio · Sustentabilidad</p></div></div></footer>
 <script src="content.js"></script><script src="script.js"></script>
 </body></html>
